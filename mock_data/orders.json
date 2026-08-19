@@ -1,0 +1,14 @@
+{
+  "1001": {
+    "customer_id": "customer-001",
+    "customer": "Ali Khan",
+    "status": "Shipped",
+    "eta": "August 20, 2026"
+  },
+  "1002": {
+    "customer_id": "customer-002",
+    "customer": "Sara Ahmed",
+    "status": "Processing",
+    "eta": "August 23, 2026"
+  }
+}

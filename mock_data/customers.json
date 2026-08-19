@@ -1,0 +1,12 @@
+{
+  "customer-001": {
+    "name": "Ali Khan",
+    "email": "ali@example.com",
+    "phone": "+923000000001"
+  },
+  "customer-002": {
+    "name": "Sara Ahmed",
+    "email": "sara@example.com",
+    "phone": "+923000000002"
+  }
+}

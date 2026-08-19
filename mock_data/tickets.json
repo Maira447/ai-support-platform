@@ -1,0 +1,17 @@
+{
+  "TKT-001": {
+    "customer_id": "customer-001",
+    "issue": "Late delivery",
+    "status": "Open"
+  },
+  "TKT-002": {
+    "customer_id": "customer-001",
+    "issue": "User cannot log into their account.",
+    "status": "Open"
+  },
+  "TKT-003": {
+    "customer_id": "unknown",
+    "issue": "User requested creation of a support ticket without providing additional details.",
+    "status": "Open"
+  }
+}

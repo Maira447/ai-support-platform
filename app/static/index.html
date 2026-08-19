@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Agent AI Orchestrator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Main Chat Area -->
+        <main class="chat-section">
+            <header class="chat-header">
+                <h1>AI Support Platform</h1>
+                <p>Powered by Multi-Agent Orchestration</p>
+            </header>
+            
+            <div class="chat-box" id="chat-box">
+                <div class="message system">
+                    <div class="bubble">
+                        Welcome! I am the Orchestrator. I can route you to Support, HR, or Sales. How can we help you today?
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off" />
+                <button id="send-btn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </button>
+            </div>
+        </main>
+
+        <!-- Orchestrator Activity Panel -->
+        <aside class="activity-panel">
+            <header class="panel-header">
+                <h2>Orchestrator Logs</h2>
+                <div class="status-indicator">
+                    <span class="pulse"></span> Active
+                </div>
+            </header>
+
+            <div class="logs-container" id="logs-container">
+                <div class="log-entry system">
+                    <span class="log-time">System</span>
+                    <span class="log-msg">Agents loaded: Support, HR, Sales.</span>
+                </div>
+                <div class="log-entry system">
+                    <span class="log-time">System</span>
+                    <span class="log-msg">Orchestrator ready.</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
